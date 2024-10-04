@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: Arial, sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .left {
+    left: 0;
   }
-}
+  
+  .right {
+    right: 0;
+  }
+  
+  #debug_info {
+    padding: 20px;
+  }
+  
+  #game_info {
+    margin-top: 20px;
+  }
+  
+  #llk_layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .llk_row {
+    display: flex;
+  }
+  
+  .llk_layout_img {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  .img_selected {
+    border: 2px solid red;
+    margin: 0; /* Adjust margin to compensate for the border */
+  }
+  
+  #toggleSound {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+  
+  #timer {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
