@@ -57,7 +57,7 @@ function App() {
       
         <div id="debug_info">
           <h1><Timer key={gameState.round} /></h1>   
-          <h2>{gameState.match}</h2>   
+          {/* <h2>{gameState.match}</h2>    */}
           <div id="game_info">
             <h3>- Connect 2 similar images with up to 3 straight lines</h3>
             <h3>- Each level will limit time, game over when time runs out</h3>
