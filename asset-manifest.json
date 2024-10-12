@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9eda67ff.css",
-    "main.js": "/static/js/main.c1b5041b.js",
-    "static/js/453.158c85d8.chunk.js": "/static/js/453.158c85d8.chunk.js",
-    "index.html": "/index.html",
-    "main.9eda67ff.css.map": "/static/css/main.9eda67ff.css.map",
-    "main.c1b5041b.js.map": "/static/js/main.c1b5041b.js.map",
-    "453.158c85d8.chunk.js.map": "/static/js/453.158c85d8.chunk.js.map"
+    "main.css": "/linlink-react/static/css/main.9eda67ff.css",
+    "main.js": "/linlink-react/static/js/main.3a0d2ff3.js",
+    "static/js/453.158c85d8.chunk.js": "/linlink-react/static/js/453.158c85d8.chunk.js",
+    "index.html": "/linlink-react/index.html",
+    "main.9eda67ff.css.map": "/linlink-react/static/css/main.9eda67ff.css.map",
+    "main.3a0d2ff3.js.map": "/linlink-react/static/js/main.3a0d2ff3.js.map",
+    "453.158c85d8.chunk.js.map": "/linlink-react/static/js/453.158c85d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9eda67ff.css",
-    "static/js/main.c1b5041b.js"
+    "static/js/main.3a0d2ff3.js"
   ]
 }
