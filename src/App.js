@@ -61,7 +61,7 @@ function App() {
           <div id="game_info">
             <h3>- Connect 2 similar images with up to 3 straight lines</h3>
             <h3>- Each level will limit time, game over when time runs out</h3>
-            <a href="https://www.youtube.com/watch?v=7d5l5o8NzNc">Here is a video on how to play</a>
+            <a href="https://drive.google.com/file/d/1OuHDLE8Lr1F_auysqus3i6GC4mWHL-un/view?usp=sharing">Here is a video on how to play</a>
           </div>
         </div>
         <button className="zoom-btn" onClick={zoomIn}>Zoom In</button>
